@@ -14,7 +14,6 @@ const LeftSidebar = ({ allShapes }: { allShapes: Array<any> }) => {
           <div className="flex flex-col flex-1">
             {allShapes?.map((shape: any) => {
               const info = getShapeInfo(shape[1]?.type);
-
               return (
                 <div
                   key={shape[1]?.objectId}
