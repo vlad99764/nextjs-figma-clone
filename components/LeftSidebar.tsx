@@ -2,7 +2,6 @@
 
 import { useMemo } from "react";
 import Image from "next/image";
-
 import { getShapeInfo } from "@/lib/utils";
 
 const LeftSidebar = ({ allShapes }: { allShapes: Array<any> }) => {
